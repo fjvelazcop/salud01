@@ -29,6 +29,14 @@ export class AuthService {
       password: 'user123',
       role: 'user',
       createdAt: new Date()
+    },
+    {
+      id: '3',
+      email: 'paciente@example.com',
+      fullName: 'Paciente Demo',
+      password: 'paciente123',
+      role: 'paciente',
+      createdAt: new Date()
     }
   ];
 
